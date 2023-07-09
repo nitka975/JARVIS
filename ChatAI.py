@@ -22,5 +22,6 @@ def handle_input(user_input):
 
 # print(handle_input(input()).choices[0].message.content)
 
+
 while True:
     print(handle_input(input()).choices[0].message.content)
