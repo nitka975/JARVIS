@@ -20,7 +20,7 @@ models = openai.Model.list()
 def ai_response(my_task):
     copletion =openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
-        messages= [{"ROLE": "user", "content": user_input}]
+        messages= [{"ROLE": "user", "content": my_task}]
     )
     return copletion
 
